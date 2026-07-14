@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="games.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ily</title>
+
+    <link rel="stylesheet" href="home.css">
+
+</head>
+
+<body>
+
+    <!-- ===================== -->
+    <!-- VENTANA PRINCIPAL -->
+    <!-- ===================== -->
+
+    <div class="aero-window">
+
+        <div class="aero-title-bar">
+
+            <span class="aero-title-icon">🐾</span>
+
+            <span class="aero-title-bar-text">
+                ily
+            </span>
+
+            <div class="aero-title-bar-controls">
+
+                <button>—</button>
+
+                <button>□</button>
+
+                <button class="close">✕</button>
+
+            </div>
+
+        </div>
+
+        <div class="aero-window-menubar">
+
+            <a href="home.html">Home</a>
+            <a href="basic.html">Basic Things</a>
+            <a href="conversations.html">Conversations</a>
+            <a href="slangs.html">Slangs</a>
+            <a href="games.html">Games</a>
+            
+        </div>
+
+    <div class="aero-window-body">
+
+    <!-- ===================== -->
+    <!-- MENÚ DE JUEGOS:P -->
+    <!-- ===================== -->
+     
+    <div id="games-menu">
+
+        <div class="game-card">
+
+            <img src="imágenes/fondos/game1.png" class="game-cover">
+
+            <button id="play-game1" class="play-button">▶</button>
+
+            <h3>¡Get Ready to meet Netanyahu!</h3>
+
+            <p>Get ready to visit our saviour and make a great first impression!</p>
+
+        </div>
+
+        <div class="game-card">
+
+            <img src="imágenes/fondos/game2.png" class="game-cover">
+
+            <button id="play-game2" class="play-button">▶</button>
+
+            <h3>¡Feed the cat!</h3>
+
+            <p>Learn some Spanish food words!⭐ 
+                (i hope this helps) </p>
+
+        </div>
+
+    </div>
+
+    <!-- ===================== -->
+    <!-- JUEGO 1 :O HOLA LEOON -->
+    <!-- ===================== -->
+
+    <div id="game1">
+
+        <button id="exit-game1" class="exit-button">
+            ⬅ Salir
+        </button>
+
+        <button id="dress-again" class="exit-button">
+            🔄 Dress Again
+        </button>
+
+        <div class="game-layout">
+             <div class="cat-area">
+                    
+                <div class="cat-stage">
+
+                    <img id="default-background"
+                         src="imágenes/fondos/room5.png">
+                         
+                    <img id="kitty"
+                         src="imágenes/gatos/MODEL.png">
+                         
+
+                    <img id="top-layer">
+                    <img id="pants-layer">
+                    <img id="hat-layer">
+
+
+                </div>
+            </div>
+
+
+                  <div class="closet-area">
+
+                    <div class="category-bar">
+                        <button id="hatsBtn">🧢</button>
+                        <button id="topsBtn">👕</button>
+                        <button id="pantsBtn">👖</button>
+                    </div>
+
+   <div class="items-grid" id="itemsGrid">
+
+    </div>
+
+    <button class="finish-button">
+
+        Finalizar
+
+    </button>
+                     </div>
+                </div>
+
+    </div>
+
+<!-- ===================== -->
+<!-- JUEGO 2 -->
+<!-- ===================== -->
+
+<div id="game2">
+
+    <button id="exit-game2" class="exit-button">
+        ⬅ Salir
+    </button>
+
+    <div class="feed-game">
+
+        <div class="timer" id="timer">
+            ⏱ 02:00
+        </div>
+
+        <div class="hunger-box">
+            <span>Hambre</span>
+            <div class="hunger-bar">
+                <div id="hunger-fill"></div>
+            </div>
+        </div>
+
+        <div id="speech" class="speech-bubble">
+        Tengo hambre...
+        </div>
+        
+        <img src="imágenes/gatos/normal.png" class="cat">
+        <img src="imágenes/decoraciones/mesa.png" class="game-table">
+
+        <div class="food-container" id="foodContainer"></div>
+        
+        <button id="startButton" class="start-button">
+            ▶ Start
+        </button>
+        
+       <div id="gameOverScreen" class="game-over-screen">
+
+         <img
+         id="graveBackground"
+         src="imágenes/fondos/tumba.png"
+         class="grave-background">
+
+        <div class="game-over-box">
+
+        <h2>Oh no!</h2>
+
+        <p>Has matado al gatito de hambre... Dx</p>
+
+    </div>
+
+</div>
+
+<audio id="gameMusic" loop>
+    <source src="music/Title wii play.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="dressMusic" loop>
+    <source src="music/xtal.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="clapSound" src="sonidos/Kids Cheering.mp3"></audio>
+
+<script src="games.js"></script>
+
+</body>
+</html>

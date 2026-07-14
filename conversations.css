@@ -1,0 +1,97 @@
+.conversation-card{
+
+    width:340px;
+
+    border-radius:28px;
+
+    overflow:hidden;
+
+    flex-direction:column;
+
+    background:rgba(255,255,255,.28);
+
+    backdrop-filter:blur(18px);
+
+    border:2px solid rgba(255,255,255,.85);
+
+    box-shadow:
+
+        inset 0 3px 8px rgba(255,255,255,.8),
+
+        0 10px 30px rgba(90,160,220,.20);
+
+}
+.conversation-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:flex-start;
+
+    gap:35px;
+
+    padding:30px;
+
+    margin-top:-20px;
+
+}
+.conversation-cover{
+
+    height:100px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:linear-gradient(#c8ecff,#9dd8ff);
+
+}
+.conversation-icon{
+
+    font-size:30px;
+
+    margin-bottom:10px;
+
+}
+.conversation-content{
+
+    padding:20px;
+    flex-direction:column;
+
+}
+.phrase{
+
+    margin:9px 0;
+
+    padding:2px;
+
+    border-radius:15px;
+
+    background:rgba(255,255,255,.35);
+
+}
+.phrase span{
+
+    color:#5c728b;
+
+    font-size:10px;
+
+}
+.useful{
+
+    margin-top:18px;
+
+    padding:15px;
+
+    border-radius:15px;
+
+    background:rgba(255,255,255,.4);
+
+    font-size:10px;
+
+}
