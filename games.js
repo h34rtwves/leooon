@@ -83,13 +83,13 @@ const tops = [
 
     "imágenes/ropa/TOP1.png",
     "imágenes/ropa/TOP2.png",
-    "imágenes/ropa/top3.png",
-    "imágenes/ropa/top4.png",
-    "imágenes/ropa/top5.png",
-    "imágenes/ropa/top6.png",
-    "imágenes/ropa/top7.png",
-    "imágenes/ropa/top8.png",
-    "imágenes/ropa/top9.png"
+    "imágenes/ropa/TOP3.png",
+    "imágenes/ropa/TOP4.png",
+    "imágenes/ropa/TOP5.png",
+    "imágenes/ropa/TOP6.png",
+    "imágenes/ropa/TOP7.png",
+    "imágenes/ropa/TOP8.png",
+    "imágenes/ropa/TOP9.png"
     
 
 ];
