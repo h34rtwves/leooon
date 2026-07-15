@@ -95,15 +95,15 @@ const tops = [
 ];
 const topsPreview = [
 
-    "imágenes/ropa/TOP1_preview.png",
-    "imágenes/ropa/TOP2_preview.png",
-    "imágenes/ropa/TOP3_preview.png",
-    "imágenes/ropa/TOP4_preview.png",
-    "imágenes/ropa/TOP5_preview.png",
-    "imágenes/ropa/TOP6_preview.png",
-    "imágenes/ropa/TOP7_preview.png",
-    "imágenes/ropa/TOP8_preview.png",
-    "imágenes/ropa/TOP9_preview.png"
+    "imágenes/ropa/top1_preview.png",
+    "imágenes/ropa/top2_preview.png",
+    "imágenes/ropa/top3_preview.png",
+    "imágenes/ropa/top4_preview.png",
+    "imágenes/ropa/top5_preview.png",
+    "imágenes/ropa/top6_preview.png",
+    "imágenes/ropa/top7_preview.png",
+    "imágenes/ropa/top8_preview.png",
+    "imágenes/ropa/top9_preview.png"
 
 ];
 
